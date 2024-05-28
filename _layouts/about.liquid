@@ -40,6 +40,14 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <!-- Staff -->
+    {% if page.staff%}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">Team</a>
+      </h2>
+      {% include staff.html %}
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
