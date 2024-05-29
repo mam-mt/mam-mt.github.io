@@ -1,17 +1,14 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Mechanics of Advanced Materials - Modelling and Testing
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: mammt_logo.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: #
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -19,8 +16,10 @@ social: true # includes social icons at the bottom of the page
 staff: true # includes staff list in the bottom
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Our research group, "Mechanics of Advanced Materials - Modelling and Testing," is at the forefront of innovation in structural applications using composites and metals. We excel in both experimental and numerical studies to design cutting-edge structures with these advanced materials.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In our experiments, we delve into quasi-static, crash, fatigue, and non-destructive testing, pushing the boundaries of material performance and reliability. Our state-of-the-art facilities enable us to simulate real-world conditions and extract critical data to inform our models.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+On the numerical side, our expertise spans finite element analysis, statistical modeling, uncertainty quantification, mechanistic machine learning, and multiscale approaches. We develop sophisticated models that capture the complex behavior of materials under various conditions, ensuring our designs are both robust and efficient.
+
+By integrating experimental insights with advanced modeling techniques, we strive to pioneer new solutions in the field of structural engineering, enhancing the safety, durability, and performance of next-generation materials.

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Research
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Main research projects
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [Composites, Metals, VHCF]
 horizontal: false
 ---
 

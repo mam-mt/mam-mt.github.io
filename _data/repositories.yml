@@ -1,9 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - aciampaglia
+  - mam-mt
 
 github_repos:
-  - alshedivat/al-folio
+  - aciampaglia/al-folio
   - twbs/bootstrap
   - jekyll/jekyll
   - jquery/jquery
