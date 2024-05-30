@@ -6,7 +6,7 @@ description: Main research projects
 nav: true
 nav_order: 2
 display_categories: [Composites, Metals, VHCF]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
