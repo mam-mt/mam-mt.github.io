@@ -24,7 +24,7 @@ Associate-Researchers:
 
     - name: Alberto Ciampaglia
       email: alberto.ciampaglia@polito.it
-      url: /people/
+      url: https://aciampaglia.github.io/
       image: staff/alberto.jpg
 
 PhD-Students:
@@ -32,3 +32,19 @@ PhD-Students:
       email: alessio.centola@polito.it
       url: /people/
       image: staff/alessio.jpg
+
+    - name: Andrea Iadarola
+      email: andrea.iadarola@polito.it
+      url: /people/
+      image: 
+
+    - name: Samuele Sampino
+      email: samuele.sampino@polito.it
+      url: /people/
+      image: 
+
+Visiting Students:
+    - name: Henrique de Queiroz
+      email: 
+      url: /people/
+      image: 
