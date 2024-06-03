@@ -14,8 +14,17 @@
                         if course.external_page %} <i class="fas fa-external-link-alt"></i>{% endif %}{%
                         if course.inline == false or course.external_page %}</a>{% endif %}
                     <br />
-                    <i class="fas fa-thumbtack"></i> {{ course.university }}
+                    <i class="fas fa-thumbtack"></i> {{ course.university }} <br />
+                    <i class="fa-solid fa-chalkboard-user"></i> 
+                    {% for teacher in course.teachers %}
+                        {{teacher}}{% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
             </td>
+            <!-- <td>
+                {% for teacher in course.teachers %}
+                    {{ teacher }}
+                {% endfor %}
+            </td> -->
         </tr>
         {% endfor %}
     </table>

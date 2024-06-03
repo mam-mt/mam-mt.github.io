@@ -3,7 +3,8 @@
     <div class="instructor-profile-two-col">
       <a href="{{ instructor.url }}" target="_blank"><img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" /></a>
       <ul class="instructor-info">
-        <li><span>Full Professor</span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><span>Full Professor</span></li>
         <li><span>Email:</span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a></li>
       </ul>
     </div>
@@ -15,7 +16,8 @@
       <a href="{{ instructor.url }}" target="_blank"><img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" /></a>
       {% endif %}
       <ul class="instructor-info">
-        <li><span>Associate Professor</span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><span>Associate Professor</span></li>
         <li><span>Email:</span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a></li>
       </ul>
     </div>
@@ -27,7 +29,8 @@
       <a href="{{ instructor.url }}" target="_blank"><img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" /></a>
       {% endif %}
       <ul class="instructor-info">
-        <li><span>Assistant Professor</span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><span>Assistant Professor</span></li>
         <li><span>Email:</span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a></li>
       </ul>
     </div>
@@ -39,7 +42,8 @@
       <a href="{{ instructor.url }}" target="_blank"><img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" /></a>
       {% endif %}
       <ul class="instructor-info">
-        <li><span>Research Associate</span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><span>Research Associate</span></li>
         <li><span>Email:</span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a></li>
       </ul>
     </div>
@@ -51,7 +55,8 @@
       <a href="{{ instructor.url }}" target="_blank"><img src="{{ instructor.image | prepend: '/assets/img/' | relative_url }}" /></a>
       {% endif %}
       <ul class="instructor-info">
-        <li><span>PhD Student</span> <a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><a href="{{ instructor.url }}" target="_blank">{{ instructor.name }}</a></li>
+        <li><span>PhD Student</span></li>
         <li><span>Email:</span> <a href="mailto:{{ instructor.email | encode_email }}" target="_blank">{{ instructor.email }}</a></li>
       </ul>
     </div>

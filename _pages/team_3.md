@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profiles
 permalink: /people/
 title: Team
 description: Memebers of the group
