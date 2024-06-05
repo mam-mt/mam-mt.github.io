@@ -3,48 +3,57 @@ Full-Professors:
       email: davide.paolino@polito.it
       url: /people/
       image: staff/davide.jpg
+      research: > 
+        Very High Cycle Fatigue (VHCF), Composites, Non-destructive testing
 
 Associate-Professors:
     - name: Andrea Tridello
       email: andrea.tridello@polito.it
       url: /people/
       image: staff/andrea_tridello.jpg
+      research: "Very High Cycle Fatigue (VHCF), Additive Manufacturing, Composites, Non-destructive testing"
 
 Assistant-Professors:
     - name: Raffaele Ciardiello
       email: raffaele.ciardiello@polito.it
       url: /people/
       image: staff/raffaele.jpg
+      research: "Sustainable composites, adhesive joints"
 
 Associate-Researchers:
     - name: Carlo Boursier Niutta
       email: carlo.boursier@polito.it
       url: /people/
       image: staff/carlo.jpg
+      research: "Composites, Non Destructive Test, Adhesive Joints, Additive Manufacturing"
 
     - name: Alberto Ciampaglia
       email: alberto.ciampaglia@polito.it
       url: https://aciampaglia.github.io/
       image: staff/alberto.jpg
+      research: "Physics-based machine learning, multiscale modelling, composites for crash"
 
 PhD-Students:
     - name: Alessio Centola
       email: alessio.centola@polito.it
       url: /people/
       image: staff/alessio.jpg
+      research: "Machine learning methods for the prediction of the fatigue response"
 
     - name: Andrea Iadarola
       email: andrea.iadarola@polito.it
       url: /people/
       image: staff/andrea_iadarola.jpg
+      research: "Bio-based composites for sustainable automotive structures"
 
     - name: Samuele Sampino
       email: samuele.sampino@polito.it
       url: /people/
       image: staff/samuele.jpg
+      research: "Plasma treatment to henanche the mechanical properties of composites"
 
-Visiting Students:
-    - name: Henrique de Queiroz
-      email: 
-      url: /people/
-      image: 
+# Visiting Students:
+#     - name: Henrique de Queiroz
+#       email: 
+#       url: /people/
+#       image: 

@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: All the pubblications from the research group.
+description: All the publications from the research group.
 nav: true
 nav_order: 4
 ---

@@ -635,11 +635,56 @@ footer.sticky-bottom {
   }
 }
 
+// Projects, support, team overview
+
+.about-tiles + div {
+  .card-header {
+    height: 8rem;
+    line-height: 8rem;
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 2.4rem;
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    img[src $= ".svg"] {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .completed {
+    height: 1rem;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  }
+
+  .completed + .card-header {
+    height: 7rem;
+    line-height: 7rem;
+  }
+}
+
+a.no-decoration:hover {
+    text-decoration: none;
+}
+
+// Team
+
+.team {
+  .card-body {
+    a:first-of-type {
+      text-decoration: none;
+    }
+  }
+}
+
 // Publications
 
 .publications {
   margin-top: 2rem;
-
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -647,10 +692,8 @@ footer.sticky-bottom {
     margin-top: 1em;
     margin-bottom: 1em;
   }
-
   h2 {
     margin-bottom: 1rem;
-
     span {
       font-size: 1.5rem;
     }
@@ -671,21 +714,19 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
-      .preview {
-      }
-
       .abbr {
-        margin-bottom: 0.5rem;
-
+        display: inline;
+        text-align: right;
+        float: right;
+        height: 2rem;
+        margin: 0 0 0.5rem 0.5rem;
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          margin-bottom: 0.5rem;
-
+          padding-left: 1rem;
+          padding-right: 1rem;
           a {
             color: white;
-
             &:hover {
               text-decoration: none;
             }
@@ -705,7 +746,6 @@ footer.sticky-bottom {
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
-
           &:hover {
             border-bottom-style: solid;
             text-decoration: none;

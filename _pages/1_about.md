@@ -14,6 +14,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 staff: true # includes staff list in the bottom
+projects: true # include projects in the homepage
 ---
 
 Our research group, "Mechanics of Advanced Materials - Modelling and Testing," is at the forefront of innovation in structural applications using composites and metals. We excel in both experimental and numerical studies to design cutting-edge structures with these advanced materials.

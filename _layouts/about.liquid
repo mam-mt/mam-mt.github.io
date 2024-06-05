@@ -72,6 +72,12 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Projects -->
+    {% if page.projects %}
+      <h2 id="projects" class="about-tiles">Projects</h2>
+      {% include about_tiles.html items=site.projects %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
