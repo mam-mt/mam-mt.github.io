@@ -5,7 +5,7 @@ title: SmartCorners
 description: User-centred Optimal Design of Electric Vehicle with Smart E-Corners
 rank: 1
 
-img: projects/smartcorner.jpg
+img: projects/smartcorner.png
 img_contains_title: true
 external_page: https://www.smartcorners.eu/
 publications: 'projects^=*ConSysT'
