@@ -12,7 +12,7 @@ publications: 'projects^=*ConSysT'
 
 profile:
     name: SmartCorners
-    image: projects/smartcorner.jpg
+    image: projects/smartcorner.png
     website: https://www.smartcorners.eu/
     address: >
 ---
